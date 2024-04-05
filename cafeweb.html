@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+
+<style>
+    .Nav {
+    height: 70px;
+    margin-top: 10px;
+}
+
+.Nav button {
+    font-size: 14px;
+    padding: 10px;
+    background-color: rgb(136, 38, 48);
+    color: white;
+    font-weight: 800;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.Nav2 {
+    margin-top: 13px;
+}
+
+.bold {
+    word-spacing: 20px;
+    margin-top: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.Nav2,
+a {
+    color: rgb(136, 38, 48);
+}
+
+.a1,
+a:hover {
+    color: rgb(15, 1, 1);
+}
+
+@media (max-width: 768px) {
+    .bold {
+        display: none;
+    }
+
+    .Nav button {
+        margin-top: 10px;
+    }
+}
+
+.section1 {
+    padding: 30px 0;
+}
+
+@media (max-width: 992px) {
+    .ml-lg-5 {
+        margin-left: 0 !important;
+    }
+}
+
+</style>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="cafe1.JPEG" alt="" width="100">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Dropdown</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <button class="btn btn-danger">1800 789 129</button>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="section1">
+        <div class="container-fluid mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h1 class="ml-lg-5" style="font-size: 45px; font-weight: 600;">Good food <br>choices are <br>good <br>investments.</h1>
+                        <p class="lead ml-lg-5" style="font-weight: 400; font-size: 18px;">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Etiam et purus a odio finibus <br> bibendum amet leo.</p>
+                        <div class="row">
+                            <div class="col-md-6"><button class="btn ml-lg-5" style="background-color: rgb(149, 30, 42); color: white; padding: 10px 20px; font-size: 20px;">order now</button></div>
+                            <div class="col-md-6"><button class="btn border" style="padding: 10px 20px; font-size: 20px;">learn more</button></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mt-3 mt-lg-0"><img src="cafe3.JPEG" alt="" class="img-fluid"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section2">
+        <div class="container-fluid" style="background-color:rgb(134, 30, 40); color: white; padding: 25px 0;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                        <h1>1287+ <br> <span style="font-size: 15px;">SAVINGS</span></h1>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                        <h1>5786+ <br> <span style="font-size: 15px;">PHOTOS</span></h1>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                        <h1>1440+ <br> <span style="font-size: 15px;">ROCKETS</span></h1>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <h1>7110+ <br> <span style="font-size: 15px;">GLOBES</span></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container-fluid mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1 class="ml-md-5 mt-3 mt-md-0" style="font-size: 35px; font-weight: 600;">We make everything by <br> hand with the best <br> possible ingredients.</h1>
+                        <p class="lead ml-md-5 mt-3" style="font-size: 18px; font-weight: 200;" id="para">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Etiam et purus a odio finibus <br> bibendum in sit amet leo. Mauris feugiat erat <br> tellus. Far far away, behind the word mountains, <br> far from the countries Vokalia and Consonantia.</p>
+                        <ul class="ml-md-5 mt-3" style="list-style: none;">
+                            <li><i class="fa-solid fa-check-double" style="color:rgb(161, 57, 67);font-size: 25px;"></i>  <span class="ml-2 lead" style="font-size: 18px;">Etiam sed dolor ac diam volutpat.</span></li>
+                            <li><i class="fa-solid fa-check-double" style="color:rgb(161, 57, 67);font-size: 25px;"></i> <span class="ml-2 lead" style="font-size: 18px;">Erat volutpat aliquet imperdiet.</span></li>
+                            <li><i class="fa-solid fa-check-double" style="color:rgb(161, 57, 67);font-size: 25px;"></i><span class="ml-2 lead" style="font-size: 18px;">purus a odio finibus bibendum.</span></li>
+                        </ul>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <button class="btn ml-md-5 mt-3" id="btn" onclick="hide()" style="background-color: rgb(149, 30, 42); color: white; padding: 10px 30px; font-size: 20px;">learn more</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-3 mt-md-0">
+                        <div class="card-img"><img src="cafe4.JPEG" alt="" class="img-fluid"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section >
+        <div class="container-fluid">
+            <div class="card">
+                <img src="cafe8.JPEG" alt="" class="card-img" height="300px">
+                <div class="card-img-overlay">
+                    <h1 class="mt-5" style="color: rgb(149, 30, 42);">When a man's stomach is full it makes no <br>
+                        difference whether he is rich or poor.</h1>
+                    <p class="mt-4" style="font-size: 16px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio <br>
+                        finibus bibendum in sit amet leo. Mauris feugiat erat tellus.</p>
+                    <div class="mt-5 text-center">
+                        <a href="https://youtu.be/bZx8rPd-PKQ?si=pc9i7kpsWotGkuxC" class="btn btn-primary" style="font-size: 20px;"> <i class="fa fa-play"></i> Watch Our Story</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Services" class="elements-content mt-4">
+        <div class="container">
+            <div class="about-inline text-center">
+                <h3 class="mt-5" style="font-size: 40px;color:rgb(149, 30, 42);">Explore Our Foods </h3>
+                <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus <br> bibendum in sit amet leo. Mauris feugiat erat tellus. Far far away, behind the word <br> mountains, far from the countries Vokalia and Consonantia, there
+                    live the blind texts. <br> Separated they live in Bookmarksgrove.</p>
+            </div>
+    
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <div class="img-wrap"><img src="cafe10.JPEG" alt="img" width="100%"></div>
+                    <div class="info-wrap mt-3">
+                        <h5 class="title" style="color: rgb(149, 30, 42);">Rainbow Vegetable Sandwich</h5>
+                        <p class="desc"> Time: 15 - 20 Minutes | Serves: 1 </p>
+                        <div class="price-wrap h3">
+                            <span class="price-new" style="color: rgb(149, 30, 42);">$10.50</span> <del class="price-old text-secondary">$11.70</del>
+                        </div>
+                    </div>
+                    <hr>
+                    <a href="" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#modalContactForm">Order Now</a>
+                </div>
+    
+                <div class="col-md-4">
+                    <div class="img-wrap"><img src="cafe11.JPEG" alt="img" width="100%"></div>
+                    <div class="info-wrap mt-3 ">
+                        <h5 class="title" style="color: rgb(149, 30, 42);">Vegetarian Burger</h5>
+                        <p class="desc"> Time: 30 - 45 Minutes | Serves: 1 </p>
+                        <div class="price-wrap h3">
+                            <span class="price-new" style="color: rgb(149, 30, 42);">$9.20</span> <del class="price-old text-secondary">$10.50</del>
+                        </div>
+                    </div>
+                    <hr>
+                    <a href="" class="btn btn-sm btn-primary" data-toggle="modal" data-target="#modalContactForm">Order Now</a>
+                </div>
+    
+                <div class="col-md-4">
+                    <div class="img-wrap"><img src="cafe12.JPEG" alt="img" width="100%"></div>
+                    <div class="info-wrap mt-3">
+                        <h5 class="title" style="color: rgb(149, 30, 42);">Raspberry Stuffed French Toast</h5>
+                        <p class="desc"> Time: 10 - 15 Minutes | Serves: 1 </p>
+                        <div class="price-wrap h3">
+                            <span class="price-new" style="color: rgb(149, 30, 42);">$12.50</span> <del class="price-old text-secondary" >$13.20</del>
+                        </div>
+                    </div>
+                    <hr>
+                    <a href="" class="btn btn-sm btn-primary" data-toggle="modal" data-target="#modalContactForm">Order Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="faq">
+        <div class="container mt-5">
+            <div class="about-inline text-center">
+                <h3 style="color: rgb(121, 19, 29); font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Frequently Asked Questions </h3>
+            </div>
+        </div>
+    
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="faq">
+                        <h5 style="color: rgb(121, 21, 31);"> <span style="color: orangered;">~</span> Is Foodera Bread really baked fresh each day?</h5>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language.</p>
+                    </div>
+                </div>
+    
+                <div class="col-md-6">
+                    <div class="faq">
+                        <h5 style="color: rgb(121, 23, 33);"> <span style="color: orangered;">~</span> Do you bake breads containing animal fats or products?</h5>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language.</p>
+                    </div>
+                </div>
+    
+                <div class="col-md-6">
+                    <div class="faq">
+                        <h5 style="color: rgb(121, 23, 32);"> <span style="color: orangered;">~</span> Can I order your products online?</h5>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language.</p>
+                    </div>
+                </div>
+    
+                <div class="col-md-6">
+                    <div class="faq">
+                        <h5 style="color: rgb(123, 21, 31);"> <span style="color: orangered;">~</span> When are you opening a shop near me?</h5>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="space100"></div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid mt-4">
+            <div class="card">
+                <img src="cafe19.JPEG" alt="" class="card-img" style="opacity: 0.8;" height="400px">
+                <div class="card-img-overlay" style="color: white; margin-top: 50px;">
+                    <span style="font-weight: bolder; font-size: 30px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-left: 10%; margin-right: 10%;"> Baked fresh daily by bakers with passion.</span>
+                    <button class="btn btn-lg mt-3" style="background-color: rgb(149, 30, 42); color: white; font-weight: bold;">Learn more</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container mt-5">
+            <div class="col-md-12">
+                <h1 style="font-family: 'Times New Roman', Times, serif; color: rgb(149, 30, 42);">Hurry up! Subscribe our newsletter <br> and get <span>25% Off</span></h1>
+                <p class="mt-4">Limited time offer for this month. No credit card required.</p>
+    
+                <form class="intro-newsletter" action="#" id="invite" method="POST">
+                    <div class="row mt-4">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-6">
+                            <input class="form-control" placeholder="Email Address here" name="email" id="eaddress" data-validate="validate(required, email)" type="email">
+                        </div>
+                        <div class="col-md-3">
+                            <button class="btn btn-lg" type="submit" style="background-color: rgb(149, 30, 42); color: white; font-weight: bold;">Subscribe</button>
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="container-fluid mt-5" style="padding: 30px 0px 20px 0px; background-color: rgb(149, 30, 42);">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 footerP text-center">
+                    <a href="#" style="color: white; font-weight: bold;">Register</a> &nbsp; &nbsp; &nbsp;
+                    <a href="#" style="color: white; font-weight: bold;">Forum</a> &nbsp; &nbsp; &nbsp;
+                    <a href="#" style="color: white; font-weight: bold;">Affiliate</a> &nbsp; &nbsp; &nbsp;
+                    <a href="#" style="color: white; font-weight: bold;">FAQ</a>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-12 footerP text-center">
+                    <i class="fab fa-facebook-f"></i>&nbsp;  
+                    <i class="fab fa-twitter"></i>&nbsp; 
+                    <i class="fab fa-youtube"></i>&nbsp; 
+                    <i class="fab fa-wordpress"></i>&nbsp; 
+                    <i class="fas fa-info"></i>&nbsp; 
+                    <i class="fab fa-instagram-square"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p style="color: white;text-align: center;background-color:rgb(149, 30, 42) ;padding-top: 80px;padding-bottom: 30px;">© 2021. Foodera. All rights reserved.</p>
+
+    <script>
+        function hide()
+        {
+            let btn=document.getElementById('btn');
+                let para=document.getElementById('para');
+                if(para.style.display!='none')
+                {
+                    para.style.display='none';
+                }
+                else{
+                    para.style.display='block';
+                }
+    
+               
+        }
+    </script>    
+
+</body>
+</html>
